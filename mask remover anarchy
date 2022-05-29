@@ -1,0 +1,5 @@
+if game.Players.LocalPlayer.Character:FindFirstChild('ingame-Mask') then
+    if game.Players.LocalPlayer.Character:FindFirstChild('ingame-Mask'):FindFirstChild('Handle') then
+        game.Players.LocalPlayer.Character:FindFirstChild('ingame-Mask'):FindFirstChild('Handle'):Destroy()
+    end
+end
